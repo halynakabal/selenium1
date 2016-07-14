@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[opening gmail...]]>
+    </line>
+    <line>
+      <![CDATA[filling email field...]]>
+    </line>
+    <line>
+      <![CDATA[performing next click...]]>
+    </line>
+    <line>
+      <![CDATA[filling password field...]]>
+    </line>
+    <line>
+      <![CDATA[performing signing click...]]>
+    </line>
+    <line>
+      <![CDATA[In all 6 emails was found 1 emails from "lits015.test@gmail.com"]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31859" started-at="2016-07-12T20:27:34Z" finished-at="2016-07-12T20:28:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31859" started-at="2016-07-12T20:27:34Z" finished-at="2016-07-12T20:28:06Z">
+      <class name="kabal_art.selenium1.TestEmailFirefox">
+        <test-method status="PASS" signature="setup()[pri:0, instance:kabal_art.selenium1.TestEmailFirefox@52d360]" name="setup" is-config="true" duration-ms="12312" started-at="2016-07-12T23:27:34Z" finished-at="2016-07-12T23:27:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:kabal_art.selenium1.TestEmailFirefox@52d360]" name="Test" duration-ms="19485" started-at="2016-07-12T23:27:47Z" finished-at="2016-07-12T23:28:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[opening gmail...]]>
+            </line>
+            <line>
+              <![CDATA[filling email field...]]>
+            </line>
+            <line>
+              <![CDATA[performing next click...]]>
+            </line>
+            <line>
+              <![CDATA[filling password field...]]>
+            </line>
+            <line>
+              <![CDATA[performing signing click...]]>
+            </line>
+            <line>
+              <![CDATA[In all 6 emails was found 1 emails from "lits015.test@gmail.com"]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:kabal_art.selenium1.TestEmailFirefox@52d360]" name="tearDown" is-config="true" duration-ms="16" started-at="2016-07-12T23:28:06Z" finished-at="2016-07-12T23:28:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- kabal_art.selenium1.TestEmailFirefox -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

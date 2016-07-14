@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" verbose="5" name="Failed suite [TestingChrome]" data-provider-thread-count="1">
+  <parameter name="browserName" value="chrome"/>
+  <test name="Chrome(failed)">
+    <classes>
+      <class name="kabal.selenium1.TestEmailSingletonFactory">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- kabal.selenium1.TestEmailSingletonFactory -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [TestingChrome] -->
